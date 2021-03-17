@@ -10,3 +10,16 @@ En este informe no están los comentarios necesarios para generar documentación
 más limpio y con un código menos engorroso. Si quieres ver los comentarios utilizados para Typedoc puedes acceder al código fuente directamente gracias al enlace en cada apartado.
 
 ## 2. Pasos previos
+Antes de comenzar con el desarrollo de código fuente vamos a generar nuestra estructura de trabajo. En este caso será algo diferente. En lugar de tener simplemente un directorio **/src** donde almacenamos los diferentes ejercicios, vamos a hacer un directorio por cada ejercicio. Siempre que trabajemos con clases se recomienda crear un directorio independiente para cada ejercicio y, dentro de ese directorio, un fichero independiente para cada clase.
+El resto será completamente igual.
+
+### EJERCICIO 1 - Pokedex
+
+
+Vamos a diseñar una clase para representar a los pokemon. Cada pokemon tiene una serie de atributos como son el nombre, el peso y altura, el tipo y sus 4 características básicas:
+ataque, defensa, velocidad y salud.
+Entonces, vamos a implementar cada una de estas carácterísticas como atributos privados de la clase. Además, vamos a implementar una variable que denominaremos **HPCOMBAT** donde iremos almacenando la salud actual del pokemon durante el combate, es decir, los puntos de salud restantes después de cada ataque enemigo.
+
+Con esta clase hecha ya podemos representar cualquier pokemon que querramos.
+
+Ahora es turno de la clase **Combat**. La idea de esta clase es represenatar un combate entre dos pokemon por lo que, como es de esperar, debemos darle dos pokemon con los que luchar.
